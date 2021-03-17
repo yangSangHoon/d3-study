@@ -11,3 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.links li {float: left; display: block; padding: 10px}
+.content {clear:both;}
