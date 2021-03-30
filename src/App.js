@@ -14,14 +14,14 @@ import {
 function App() {
     return (
         <Router>
-            <ul class='links'>
+            <ul className='links'>
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/step1">step1</Link></li>
                 <li><Link to="/step2">step2</Link></li>
                 <li><Link to="/step3">step3</Link></li>
                 <li><Link to="/Line">Line</Link></li>
             </ul>
-            <div class="content">
+            <div className="content">
                 <Route exact path="/">
                     <Main/>
                 </Route>

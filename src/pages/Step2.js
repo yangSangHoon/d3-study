@@ -15,7 +15,7 @@ function Step2() {
             .data(arr)
             .join(
                 (enter) => enter.append('circle'),
-                (update) => update.attr('class', 'updated'),
+                (update) => update.attr('className', 'updated'),
                 (exit) => exit.remove()
             )
             .attr('r', (value) => 10)
